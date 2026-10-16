@@ -1,0 +1,33 @@
+{
+  "name": "mini-message-board",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "message",
+    "board",
+    "mini"
+  ],
+  "homepage": "https://github.com/minhnq1709/mini-message-board#readme",
+  "bugs": {
+    "url": "https://github.com/minhnq1709/mini-message-board/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhnq1709/mini-message-board.git"
+  },
+  "license": "ISC",
+  "author": "ordinis",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "dev": "npm run build && node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
